@@ -1,0 +1,57 @@
+---
+layout: default
+---
+<!--========== PAGE CONTENT ==========-->
+
+<section class="g-padding-y-60--xs">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                {% for post in paginator.posts %}
+                <section class="post">
+                    <h3><a href="{{post.url}}">{{post.title}}</a></h3>
+                    <div class="d-flex">
+                        <div class="mr-auto">
+                            <p class="author-category">By <a href="javascript:void(0)">Admin</a></p>
+                        </div>
+                        <div class="">
+                            <p class="date-comments"><a href="javascript:void(0)"><i class="fa fa-calendar"></i> {{ post.date | date: '%B %d, %Y' }}</a><a href="{{post.url}}"><i class="fa fa-comment"></i> <span class="disqus-comment-count" data-disqus-url="{{post.url | prepend: site.url}}">0 Comment</span></a></p>
+                        </div>
+                    </div>
+                    <div class="image"><a href="{{post.url}}"><img src="{{"/assets/images/" | append : post.img}}" alt="{{post.title}} image" class="img-fluid"></a></div>
+                    <div class="read-more text-right"><a href="{{post.url}}" class="btn btn-template-outlined">Continue reading</a></div>
+                </section>
+                {% endfor %}
+                {% include pagination.html %}
+            </div>
+            <div class="col-md-4">
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Tags</h3>
+                    </div>
+                    <div class="panel-body">
+                        {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{% endcapture %}
+                        {% assign tag_words = site_tags | split:',' | sort %}
+                        <!--  cycles through tag list and creates header row of all tags used in site with accompanying per-tag counts...-->
+                        {% for item in (0..site.tags.size) %}{% unless forloop.last %}
+                        {% capture this_word %}{{ tag_words[item] | strip_newlines }}{% endcapture %}
+                        <a href="{{site.url}}/tags#{{this_word | replace: ' ', '-'}}" class="btn btn-outline-info"><i class="fa fa-tags"></i> {{ this_word }} <span>({{ site.tags[this_word].size }})</span></a>
+                        {% endunless %}{% endfor %}
+                    </div>
+                </div>
+
+                <div class="panel">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Donasi</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="text-center">
+                        <p>Jika anda suka dengan web tersebut, silakan berikan dukungan</p>
+                        <a href="https://paypal.me/Samuel431" class="btn btn-outline-info btn-donation" rel="nofollow" target="_blank">Donasi <i class="fas fa-heart"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

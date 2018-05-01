@@ -1,0 +1,31 @@
+title: Selamat Datang di Minotaur
+description: > # this means to ignore newlines until "baseurl:"
+  Kumpulan Tutorial Belajar Pemrograman HTML5, CSS, Javascript, Java, Android, Ruby, Python, C#, ASP Net dan PHP, Belajar Membangun dan Mengembangkan Web,
+  Belajar Membuat Game, Belajar Membuat Aplikasi Desktop dari Pemula Hingga Mahir
+permalink: ':title/'
+url: "https://minotaurblog.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+site-twitter: MinotaurSamuel #if your site has a twitter account, enter it here
+
+# Author Settings
+author: Samuel Minotaur # add your name
+author-img: # add your photo
+about-author: . # add description
+social-twitter: MinotaurSamuel # add your Twitter handle
+social-facebook: samuel.minotaur.1 # add your Facebook handle
+social-github: minotaurblog # add your Github handle
+social-email: # add your Email address
+
+# Disqus
+discus-identifier: minotaurblog # add your discus identifier
+
+# Tracker
+analytics: UA-118453840-1 # Google Analytics
+
+# Build Settings
+markdown: kramdown
+plugins:
+  - jekyll-sitemap
+  - jekyll-paginate
+
+paginate: 6
+paginate_path: "/page/:num"

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="id">
+{% include head.html %}
+<body>
+  <!--========== HEADER ==========-->
+  <header class="m-header js__header-fixed">
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand d-flex w-50" href="{{site.url}}"><img class="img-fluid" src="{{"/assets/images/" | append : "logo.png"}}" alt="Logo Minotaur"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse w-100" id="navbarSupportedContent">
+          <ul class="navbar-nav w-100 justify-content-end m-navbar-nav">
+            <li class="nav-item mr-1">
+              <a class="nav-link" href="{{site.url}}">Beranda</a>
+            </li>
+            <!--<li class="nav-item mr-1">
+              <a class="nav-link" href="#">Arsip</a>
+            </li>-->
+            <li class="nav-item mr-1">
+              <a class="nav-link" href="{{site.url}}/tags">Tag</a>
+            </li>
+            <!--<li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>-->
+            <!--<li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>-->
+          </ul>
+          <!--<form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>-->
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!--========== END HEADER ==========-->
+
+  <section class="m-page-header">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-md-12">
+            <h3 class="m-page-header-title">{% if page.title %} {{page.title}} {% else %} Arsip Blog {% endif %}</h3>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {{ content }}
+
+  <a class="m-scroll-to-top js__scroll_to_top" href="#"><i class="fa fa-angle-up"></i></a>
+
+  <script type="text/javascript" src="{{ "/assets/js/jquery.js" }}"></script>
+  <script type="text/javascript" src="{{ "/assets/bootstrap/js/bootstrap.min.js" }}"></script>
+  {% for js in layout.jsarr %}
+  <script type="text/javascript" src="{{ js }}"></script>
+  {% endfor %}
+  {% for js in page.jsarr %}
+  <script type="text/javascript" src="{{ js }}"></script>
+  {% endfor %}
+
+  <script type="text/javascript" src="{{ "/assets/js/global.js" }}"></script>
+
+  <!--========== FOOTER ==========-->
+  <footer class="m-footer">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-md-12">
+              <p class="m-copy-right">&copy; Copyright <a rel="nofollow" href="{{site.url}}">Minotaur</a>. All right reserved.</p>
+
+          </div>
+        </div>
+      </div>
+  </footer>
+  <!--========== END FOOTER ==========-->
+</body>
+</html>
