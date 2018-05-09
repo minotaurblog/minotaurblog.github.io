@@ -8,7 +8,7 @@ site-twitter: MinotaurSamuel #if your site has a twitter account, enter it here
 
 # Author Settings
 author: Samuel Minotaur # add your name
-author-img: # add your photo
+author-img: cover.jpg # add your photo
 about-author: . # add description
 social-twitter: MinotaurSamuel # add your Twitter handle
 social-facebook: samuel.minotaur.1 # add your Facebook handle
