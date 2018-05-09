@@ -503,3 +503,13 @@ nav[role="navigation"] {
     padding: 20px 30px;
     font-size: 2rem;
 }
+
+span.support.tag.close {
+    float: none;
+    font-size: inherit;
+    font-weight: normal;
+    line-height: normal;
+    color: #fff;
+    text-shadow: none;
+    opacity: 1;
+}

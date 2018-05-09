@@ -82,7 +82,7 @@ cssarr:
 </section>
 
 <!-- Start related post -->
-{% assign maxRelated = 3 %}
+{% assign maxRelated = 4 %}
 {% assign minCommonTags =  2 %}
 {% assign maxRelatedCounter = 0 %}
 
@@ -119,13 +119,14 @@ cssarr:
       </div>
 {% assign maxRelatedCounter = maxRelatedCounter | plus: 1 %}
 {% if maxRelatedCounter >= maxRelated %}
-    </div>
-  </div>
-</section>
 {% break %}
 {% endif %}
 {% endif %}
-
+{% if forloop.last == true %}
+    </div>
+  </div>
+</section>
+{% endif %}
 {% endfor %}
 <!-- End related post -->
 <!--========== END PAGE CONTENT ==========-->
