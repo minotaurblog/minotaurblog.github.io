@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="06de8bf2-f578-460a-8ad9-a94ea1dd5881" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/post.html" afterPath="$PROJECT_DIR$/_layouts/post.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-elemen-base.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-elemen-base.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-elemen-head.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-elemen-head.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-elemen-html.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-elemen-html.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-elemen-title.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-elemen-title.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-kategori-konten.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-02-tutorial-html5-kategori-konten.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-03-tutorial-html5-elemen-body.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-03-tutorial-html5-elemen-body.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-03-tutorial-html5-elemen-link.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-03-tutorial-html5-elemen-link.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-06-pengenalan-WAI-ARIA.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-06-pengenalan-WAI-ARIA.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-06-tutorial-WAI-ARIA-role-alert.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-06-tutorial-WAI-ARIA-role-alert.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-07-tutorial-html5-elemen-header-dan-footer.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-07-tutorial-html5-elemen-header-dan-footer.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2018-05-07-tutorial-html5-elemen-main.markdown" afterPath="$PROJECT_DIR$/_posts/2018-05-07-tutorial-html5-elemen-main.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/style.css" afterPath="$PROJECT_DIR$/assets/css/style.css" />
-    </list>
+    <list default="true" id="06de8bf2-f578-460a-8ad9-a94ea1dd5881" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -79,14 +63,34 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="default.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+            <state relative-caret-position="221">
+              <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
               <folding>
                 <element signature="e#5774#5780#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-05-23-tutorial-html5-elemen-heading.markdown" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-heading.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="2018-05-23-tutorial-html5-elemen-aside.markdown" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-aside.markdown">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -150,6 +154,9 @@
         <option value="$PROJECT_DIR$/_layouts/post.html" />
         <option value="$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-section.markdown" />
         <option value="$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-article.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-address.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-aside.markdown" />
+        <option value="$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-heading.markdown" />
       </list>
     </option>
   </component>
@@ -160,7 +167,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -271,15 +278,15 @@
       <workItem from="1525157721420" duration="74957000" />
       <workItem from="1525744433842" duration="22773000" />
       <workItem from="1527047359239" duration="1794000" />
-      <workItem from="1527057356071" duration="10648000" />
+      <workItem from="1527057356071" duration="14178000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110172000" />
+    <option name="totallyTimeSpent" value="113702000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24963397" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -312,32 +319,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1258">
-          <caret line="74" column="0" lean-forward="false" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="e#5774#5780#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/rainbow/demos/html.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2018-05-06-pengenalan-WAI-ARIA.markdown">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_posts/2018-05-03-tutorial-html5-elemen-link.markdown">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2822">
@@ -637,13 +618,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-address.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="6" lean-forward="false" selection-start-line="22" selection-start-column="6" selection-end-line="22" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="19" column="46" lean-forward="true" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
+        <state relative-caret-position="221">
+          <caret line="19" column="46" lean-forward="false" selection-start-line="19" selection-start-column="46" selection-end-line="19" selection-end-column="46" />
           <folding>
             <element signature="e#5774#5780#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-aside.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="22" lean-forward="false" selection-start-line="3" selection-start-column="22" selection-end-line="3" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2018-05-23-tutorial-html5-elemen-heading.markdown">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="12" lean-forward="false" selection-start-line="5" selection-start-column="12" selection-end-line="5" selection-end-column="12" />
+          <folding />
         </state>
       </provider>
     </entry>
