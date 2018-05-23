@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial ARIA - Alert
 date: 2018-05-08 19:13:20 +0700
-description: Mengenal widget alert beserta properti dan kegunaannya. # Add post description (optional)
-img: alert.jpg # Add image post (optional)
+description: Mengenal widget alert beserta properti dan kegunaannya
+img: alert.jpg
 tags: [ARIA, HTML5, Javascript]
 ---
 Alert adalah sebuah widget yng berfungsi untuk menyampaikan pesan singkat dan penting yang menarik perhatian pengguna tanpa mengganggu kerjaan pengguna.

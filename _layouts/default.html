@@ -20,6 +20,9 @@
               <a class="nav-link" href="#">Arsip</a>
             </li>-->
             <li class="nav-item mr-1">
+              <a class="nav-link" href="{{site.url}}/search">Search</a>
+            </li>
+            <li class="nav-item mr-1">
               <a class="nav-link" href="{{site.url}}/tags">Tag</a>
             </li>
             <!--<li class="nav-item dropdown">
@@ -50,8 +53,18 @@
   <section class="m-page-header">
     <div class="container-fluid">
       <div class="row">
-        <div class="col-md-12">
-            <h3 class="m-page-header-title">{% if page.title %} {{page.title}} {% else %} Arsip Blog {% endif %}</h3>
+        <div class="col-12">
+          <h3 class="m-page-header-title">{% if page.title %} {{page.title}} {% else %} Arsip Blog {% endif %}</h3>
+          {% if page.search %}
+          <form>
+            <div class="input-group">
+              <input type="text" id="search-input" class="form-control search-input" placeholder="What are your looking for?" aria-label="What are your looking for?">
+              <div class="input-group-append">
+                <span  class="input-group-text btn-search"><i class="fas fa-search"></i></span>
+              </div>
+            </div>
+          </form>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -72,6 +85,33 @@
 
   <script type="text/javascript" src="{{ "/assets/js/global.js" }}"></script>
 
+  <script type="text/javascript">
+      $(document).ready(function() {
+
+          if (typeof SimpleJekyllSearch != "undefined") {
+              window.simpleJekyllSearch = new SimpleJekyllSearch({
+                  searchInput: document.getElementById('search-input'),
+                  resultsContainer: document.getElementById('results'),
+                  json: '{{site.url}}/search.json',
+                  searchResultTemplate: '<div class="card">\n' +
+                  '                    <h3><a href="{url}">{title}</a></h3>\n' +
+                  '                    <div class="d-flex">\n' +
+                  '                        <div class="mr-auto">\n' +
+                  '                            <p class="author-category">By <a href="javascript:void(0)">Admin</a></p>\n' +
+                  '                        </div>\n' +
+                  '                        <div>\n' +
+                  '                            <p class="date-comments"><a href="javascript:void(0)"><i class="fa fa-calendar"></i> {date}</a><a href="{url}"><i class="fa fa-comment"></i> <span class="disqus-comment-count" data-disqus-url="{url}">0 Comment</span></a></p>\n' +
+                  '                        </div>\n' +
+                  '                    </div>\n' +
+                  '                    <div class="image"><a href="{url}"><img src="{img}" alt="{title} image" class="img-fluid"></a></div>\n' +
+                  '                    <div class="read-more text-right"><a href="{url}" class="btn btn-template-outlined">Continue reading</a></div>\n' +
+                  '                </div>',
+                  noResultsText: '<div class="col-12 col-lg-10 m-auto"><h4>No results found</h4></div>',
+                  limit: 6
+              });
+          }
+      });
+  </script>
 
   <footer class="m-footer">
       <div class="container-fluid">

@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Elemen &lt;head&gt;
 date: 2018-05-02 19:43:20 +0700
-description: Mengenal Elemen head Beserta Atribut dan Fungsinya . # Add post description (optional)
-img: head.jpg # Add image post (optional)
+description: Mengenal Elemen head Beserta Atribut dan Fungsinya
+img: head.jpg
 tags: [HTML5]
 ---
 Elemen <code>head</code> berfungsi untuk menampung metadata-metadata dokumen HTML.

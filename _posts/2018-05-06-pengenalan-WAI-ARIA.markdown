@@ -2,8 +2,8 @@
 layout: post
 title: Pengenalan WAI ARIA
 date: 2018-05-06 16:53:20 +0700
-description: Mengenal apa itu WAI ARIA. # Add post description (optional)
-img: aria.jpg # Add image post (optional)
+description: Mengenal apa itu WAI ARIA
+img: aria.jpg
 tags: [ARIA, HTML5, Javascript]
 ---
 WAI-ARIA ( Web Accessibility Initiative - Accessible Rich Internet Applications ) adalah suatu cara agar konten web dan aplikasi web lebih dapat diakses oleh assistive technology (teknologi pendamping) seperti perangkat-perangkat yang digunakan orang cacat untuk mengakses web. Saat ini HTML masih belum ramah untuk assistive technology karena terbatasnya kemampuan HTML. Untuk membuat web benar-benar interaktif dengan pengguna, kita pasti harus banyak menggunakan javascript. Empat masalah yang menghalangi assistive technology untuk bekerja dengan aplikasi javascript:

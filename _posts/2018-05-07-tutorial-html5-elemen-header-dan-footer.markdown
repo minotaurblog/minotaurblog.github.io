@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Elemen &lt;header&gt; dan &lt;footer&gt;
 date: 2018-05-07 10:54:20 +0700
-description: Mengenal Elemen header dan footer Beserta Atribut dan Fungsinya . # Add post description (optional)
-img: header.jpg # Add image post (optional)
+description: Mengenal Elemen header dan footer Beserta Atribut dan Fungsinya
+img: header.jpg
 tags: [HTML5]
 ---
 Elemen <code>header</code> berfungsi sebagai konten pengantar halaman web yang terdiri dari logo, form pencarian dan deretan hyperlink untuk navigasi. Elemen <code>header</code> juga berfungsi sebagai konten pengantar artikel yang berisi judul, tanggal, pembuat artikel, waktu dibuat dll. Dalam satu dokumen dapat terdapat beberapa elemen <code>header</code>.

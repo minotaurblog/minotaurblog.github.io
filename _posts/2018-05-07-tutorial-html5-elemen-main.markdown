@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Elemen &lt;main&gt;
 date: 2018-05-07 10:14:20 +0700
-description: Mengenal Elemen main Beserta Atribut dan Fungsinya . # Add post description (optional)
-img: main.jpg # Add image post (optional)
+description: Mengenal Elemen main Beserta Atribut dan Fungsinya
+img: main.jpg
 tags: [HTML5]
 ---
 Elemen <code>main</code> mewakili konten utama dari tubuh dokumen atau aplikasi. Dalam sebuah dokumen tidak boleh mengandung lebih dari satu elemen <code>main</code> kecuali memiliki atribut <code>hidden</code> untuk elemen <code>main</code> lainnya. Elemen <code>main</code> hanya dapat memiliki induk elemen seperti <code>html</code>, <code>body</code>, <code>div</code> dan <code>form</code>. Elemen <code>main</code> tidak boleh merupakan anak elemen dari <code>article</code>, <code>aside</code>, <code>header</code>, <code>footer</code> atau <code>nav</code>.

@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Elemen &lt;title&gt;
 date: 2018-05-02 20:56:20 +0700
-description: Mengenal Elemen title Beserta Atribut dan Fungsinya . # Add post description (optional)
-img: title.jpg # Add image post (optional)
+description: Mengenal Elemen title Beserta Atribut dan Fungsinya
+img: title.jpg
 tags: [HTML5]
 ---
 Elemen <code>title</code> berfungsi untuk menetukan judul dokumen HTML.

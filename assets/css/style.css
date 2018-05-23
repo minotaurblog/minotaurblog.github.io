@@ -48,7 +48,6 @@
     color: #323232;
     text-align: center;
     text-transform: capitalize;
-    margin-bottom: 0;
 }
 
 .row {
@@ -503,7 +502,6 @@ nav[role="navigation"] {
     padding: 20px 30px;
     font-size: 2rem;
 }
-
 span.support.tag.close {
     float: none;
     font-size: inherit;
@@ -512,4 +510,56 @@ span.support.tag.close {
     color: #fff;
     text-shadow: none;
     opacity: 1;
+}
+.card-columns .card {
+    margin-bottom: 2rem;
+    border: none;
+}
+.card-columns {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+    -webkit-column-gap: 0rem;
+    -moz-column-gap: 0rem;
+    column-gap: 0rem;
+    orphans: 1;
+    widows: 1;
+}
+@media (min-width: 992px) {
+    .card-columns {
+        -webkit-column-count: 2;
+        -moz-column-count: 2;
+        column-count: 2;
+        -webkit-column-gap: 1.25rem;
+        -moz-column-gap: 1.25rem;
+        column-gap: 1.25rem;
+        orphans: 1;
+        widows: 1;
+    }
+}
+.search-input {
+    padding: 24px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    border: none;
+}
+@media (max-width: 576px) {
+    .search-input {
+        border-radius: 3px;
+    }
+}
+.btn-search {
+    font-weight: 400;
+    font-size: 18px;
+    padding: 17px 50px;
+    background: #ff3a6d;
+    color: #ffffff;
+    border: none;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+@media (max-width: 576px) {
+    .btn-search {
+        border-radius: 3px;
+    }
 }

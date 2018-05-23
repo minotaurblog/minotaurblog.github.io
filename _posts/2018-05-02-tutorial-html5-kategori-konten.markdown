@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Kategori Konten Elemen HTML5
 date: 2018-05-02 17:20:20 +0700
-description: Pengelompokkan Elemen HTML5 Berdasarkan Karakteristik. # Add post description (optional)
-img: html5.jpg # Add image post (optional)
+description: Pengelompokkan Elemen HTML5 Berdasarkan Karakteristik
+img: html5.jpg
 tags: [HTML5]
 ---
 

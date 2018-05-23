@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Elemen &lt;link&gt;
 date: 2018-05-03 14:21:20 +0700
-description: Mengenal Elemen link Beserta Atribut dan Fungsinya . # Add post description (optional)
-img: link.jpg # Add image post (optional)
+description: Mengenal Elemen link Beserta Atribut dan Fungsinya
+img: link.jpg
 tags: [HTML5]
 ---
 Elemen <code>link</code> menentukan hubungan antara dokumen HTML dengan resource luar.

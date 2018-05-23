@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Elemen &lt;base&gt;
 date: 2018-05-02 21:31:20 +0700
-description: Mengenal Elemen base Beserta Atribut dan Fungsinya . # Add post description (optional)
-img: base.jpg # Add image post (optional)
+description: Mengenal Elemen base Beserta Atribut dan Fungsinya
+img: base.jpg
 tags: [HTML5]
 ---
 Elemen <code>base</code> berfungsi untuk menentukan base url dokumen HTML.

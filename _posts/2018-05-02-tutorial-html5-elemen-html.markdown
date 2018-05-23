@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Elemen &lt;html&gt;
 date: 2018-05-02 19:32:20 +0700
-description: Mengenal Elemen html Beserta Atribut dan Fungsinya . # Add post description (optional)
-img: html.jpg # Add image post (optional)
+description: Mengenal Elemen html Beserta Atribut dan Fungsinya
+img: html.jpg
 tags: [HTML5]
 ---
 Elemen <code>html</code> merupakan elemen root (elemen paling tinggi) dari dokumen HTML. Elemen lainnya adalah turunan atau anak dari elemen <code>html</code>.

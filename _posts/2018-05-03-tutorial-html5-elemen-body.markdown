@@ -2,8 +2,8 @@
 layout: post
 title: Tutorial HTML5 - Elemen &lt;body&gt;
 date: 2018-05-03 20:26:20 +0700
-description: Mengenal Elemen body Beserta Atribut dan Fungsinya . # Add post description (optional)
-img: body.jpg # Add image post (optional)
+description: Mengenal Elemen body Beserta Atribut dan Fungsinya
+img: body.jpg
 tags: [HTML5]
 ---
 Elemen <code>body</code> sebagai tempat isi dokumen berada.
