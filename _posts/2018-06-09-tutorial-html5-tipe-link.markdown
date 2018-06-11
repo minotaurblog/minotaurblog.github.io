@@ -67,8 +67,7 @@ Dalam HTML, tipe link menunjukkan hubungan antara dua dokumen. Elemen yang digun
     </tr>
     <tr>
       <td><code>noopener</code></td>
-      <td>membuat nilai <code>window.opener=null</td> ketika kita klik tautan yang memiliki atribut
-      <code>target="_blank"</code></td>
+      <td>membuat nilai <code>window.opener=null</code> ketika kita klik tautan yang memiliki atribut <code>target="_blank"</code></td>
       <td><code>a</code> dan <code>area</code></td>
     </tr>
     <tr>
