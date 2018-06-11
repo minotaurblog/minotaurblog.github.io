@@ -6,7 +6,7 @@ description: Mengenal Elemen aside Beserta Atribut dan Fungsinya
 img: aside.jpg
 tags: [HTML5]
 ---
-Elemen <code>aside</code> digunakan untuk membuat info tambahan yang terletak disamping artikel/tulisan.
+Elemen <code>aside</code> digunakan untuk membuat bagian konten yang terpisah dari konten utama, biasanya berada disamping kanan atau/dan kiri konten utama seperti iklan, kutipan dan link-link navigasi atau untuk membuat info tambahan yang terletak disamping artikel.
 
 <pre>
 <code data-language="html">&lt;article&gt;
