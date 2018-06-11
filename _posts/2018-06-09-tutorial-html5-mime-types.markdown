@@ -8,8 +8,9 @@ tags: [HTML5]
 ---
 MIME Types disebut juga media types and content types. MIME Types berfungsi seperti ekstensi file untuk internet. MIME types memberitahu browser tipe file apa yang diterima browser sehingga browser tahu memprosesnya.
 
+Tabel Mime Types yang penting
+
 <table class="table">
- <caption>Tabel Mime Types yang penting</caption>
  <thead>
   <tr>
    <th>Ekstensi</th>
@@ -309,13 +310,13 @@ MIME Types disebut juga media types and content types. MIME Types berfungsi sepe
   </tr>
   <tr>
    <td><code>.xml</code></td>
-   <td><code>XML</code></td>
+   <td>XML</td>
    <td><code>application/xml</code></td>
   </tr>
   <tr>
    <td><code>.xul</code></td>
    <td>XUL</td>
-   <td>application/vnd.mozilla.xul+xml</td>
+   <td><code>application/vnd.mozilla.xul+xml</code></td>
   </tr>
   <tr>
    <td><code>.zip</code></td>
